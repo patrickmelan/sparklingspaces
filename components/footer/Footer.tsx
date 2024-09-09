@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 /*border-t-2 border-slate-400*/ 
 
@@ -15,21 +16,16 @@ function Footer() {
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold uppercase text-black">Services</h2>
+                        <h2 className="mb-6 text-sm font-semibold uppercase text-black">Contact Us</h2>
                         <ul className="text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="https://flowbite.com/" className="hover:underline">List Item</a>
+                                <a href="https://flowbite.com/" className="hover:underline">Contact Form</a>
                             </li>
                             <li className="mb-4">
-                                <a href="https://flowbite.com/" className="hover:underline">List Item</a>
+                                <a href="https://flowbite.com/" className="hover:underline">PHONENUMBER</a>
                             </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 className="mb-6 text-sm font-semibold uppercase text-black">Follow us</h2>
-                        <ul className="text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="https://flowbite.com/" className="hover:underline">List Item</a>
+                                <a href="https://flowbite.com/" className="hover:underline">EMAILADRESS</a>
                             </li>
                         </ul>
                     </div>
@@ -37,7 +33,7 @@ function Footer() {
                         <h2 className="mb-6 text-sm font-semibold uppercase text-black">Legal</h2>
                         <ul className="text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="https://flowbite.com/" className="hover:underline">List Item</a>
+                                <Link href="/terms" className="hover:underline">Terms & Conditions</Link>
                             </li>
                         </ul>
                     </div>

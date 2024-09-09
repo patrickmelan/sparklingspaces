@@ -16,7 +16,7 @@ function ServicesPage() {
 
         <div className="grid grid-cols-3 gap-x-6 py-6">
             {serviceList.map((service, index) =>
-                <div className="">
+                <div key={index} className="">
                     <Image src={`/${service.image}`} alt={`Image of ${service.name}`} width={450} height={250} objectFit="cover" className=" w-full h-2/5 object-cover rounded-md shadow-slate-400 shadow-md" />
                     <h1 className="text-3xl py-4 font-bold text-center ">{service.name}</h1>
                     <p className='text-base py-2 text-left'>{service.description}</p>
