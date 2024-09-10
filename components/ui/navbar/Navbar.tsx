@@ -12,6 +12,15 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
+
+import { BsInstagram, BsFacebook } from "react-icons/bs";
+
+
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Navbar() {
@@ -36,7 +45,6 @@ function Navbar() {
               </DropdownMenuContent>
             </DropdownMenu>
                 <Link href="/faqs" className="hover:underline hover:underline-offset-4 decoration-blue duration-500"><h1 className="text-lg">FAQs</h1></Link>                 
-                <Link href="/" className=""><h1 className="text-lg">Links</h1></Link>  
                 <Button className="bg-primaryblue text-black hover:bg-primaryblue hover:text-white duration-300">Request an Estimate</Button>    
             </div>
         </div>
