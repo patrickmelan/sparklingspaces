@@ -37,7 +37,7 @@ function TermsPage() {
                 Sparkling Spaces reserves the right to modify these Terms and Conditions at any time.
                 Clients will be notified of any changes in writing.
                 By engaging Sparkling Spaces services, the client acknowledges and agrees to these Terms and Conditions.</p>
-                <p className='text-right'>- Sparkling Space Team</p>
+                <p className='text-right'>- Sparkling Spaces Team</p>
 
             </div>
         </div>

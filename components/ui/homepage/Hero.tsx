@@ -19,7 +19,7 @@ export default function Hero() {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="flex-col text-center space-y-4">
             <div className={dancing_script.className}>
-              <h1 className="text-yellow-400 text-7xl font-bold italic">Sparkling Spaces</h1>
+              <h1 className="text-yellow-400 md:text-7xl text-6xl font-bold italic">Sparkling Spaces</h1>
             </div>
 
             <h2 className="text-white text-3xl font-bold">The Lehigh Valley's <span className="font-extrabold underline underline-offset-4">Premier</span> Cleaning Service</h2>

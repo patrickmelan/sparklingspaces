@@ -19,7 +19,7 @@ function Pricing() {
             <p className="text-lg py-2">Whether its a small apartment or industry sized warehouse, we'll take care of it!</p>
         </div>
 
-        <div className="flex-col space-y-4 md:grid md:grid-cols-3 md:space-y-0 md:space-x-4 py-6">
+        <div className="flex-col px-4 md:px-0 space-y-4 md:grid md:grid-cols-3 md:space-y-0 md:space-x-4 py-6">
             <Card>
                 <CardHeader>
                     <CardTitle>Residential</CardTitle>

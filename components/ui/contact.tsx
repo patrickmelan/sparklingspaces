@@ -53,7 +53,7 @@ const Contact = () => {
 
 
 	return (
-		<div className="pb-4 md:pb-0 flex items-center justify-center">
+		<div className="pb-4 md:pb-0 flex items-center w-full justify-center">
 			<div className="w-full max-w-md p-8 rounded-lg bg-white shadow-xl">
 				<h2 className="mb-4 text-4xl text-turqoise">Contact Us</h2>
 				<form action="#" onSubmit={sendEmail} className="space-y-8">
